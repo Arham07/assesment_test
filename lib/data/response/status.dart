@@ -1,0 +1,3 @@
+enum Status { INITIAL, LOADING, COMPLETED, ERROR }
+
+enum ApiMethodType {GET, POST, PUT, DELETE}
