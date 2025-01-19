@@ -9,14 +9,14 @@ import '../../configs/components/loading_widget.dart';
 import '../../configs/const/colors.dart';
 import '../../data/response/status.dart';
 
-class AppointmentScreen extends StatefulWidget {
-  AppointmentScreen({super.key});
+class TrendingScreen extends StatefulWidget {
+  TrendingScreen({super.key});
 
   @override
-  State<AppointmentScreen> createState() => _AppointmentScreenState();
+  State<TrendingScreen> createState() => _TrendingScreenState();
 }
 
-class _AppointmentScreenState extends State<AppointmentScreen> {
+class _TrendingScreenState extends State<TrendingScreen> {
   // AppointmentViewModel appointmentViewModel = AppointmentViewModel();
 
   @override

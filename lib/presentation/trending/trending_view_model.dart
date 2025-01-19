@@ -3,7 +3,7 @@ import 'package:assesment_app/repositories/trending_repository/trending_reposito
 import 'package:flutter/foundation.dart';
 import '../../../data/response/api_response.dart';
 
-class AppointmentViewModel with ChangeNotifier {
+class TrendingViewModel with ChangeNotifier {
   TrendingRepository trendingRepository = TrendingRepository();
 
   ApiResponse<TrendingModel> followupList = ApiResponse.loading();
