@@ -50,6 +50,7 @@ dependencies:
   dio:
   image_picker:
   intl:
+  lottie:
 
 dev_dependencies:
   flutter_test:
